@@ -9,7 +9,7 @@ from django.contrib.auth import authenticate, login, logout
 
 from django.template.loader import get_template
 from django.contrib.auth.decorators import login_required
-from xhtml2pdf import pisa # type: ignore
+from xhtml2pdf import pisa  # type: ignore
 import logging
 # Initialize logger
 logger = logging.getLogger(__name__)
